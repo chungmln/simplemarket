@@ -63,7 +63,11 @@ module.exports = {
                       data: {
                         type: "array",
                         description: "data",
-                        example: ["폰 팔아요","이걸 안사?","usernickname","1","c/program/market/img/itemimg.png"],
+                        example: [{title : "폰 팔아요",
+                                  content : "이걸 안사?", 
+                                  nickname : "usernickname", 
+                                  userId : "1", 
+                                  image : "c/program/market/img/itemimg.png"}],
                       },
                     },
                   },
